@@ -14,26 +14,16 @@ Here we go, the way the code looks isn't great, the way the code helps someone t
          import os
         os.chdir( "/kaggle/working/ERA/7 - InDepth Coding Session/")
    4. Import required
-          #### Custom
-          from utility.dataset import loader # input batch-size & transforms if u create else proivde 'custom'
-          from utility.run import Performance,scores
-          from utility.visualize import Plots,plot_metrics  
-          from models.model1 import NetArch,return_summary
-          from utility.utils import allot_device
- 
-          #### required pre-defined libraries
-
-      5. Setup the device
-          ####Setting up the device 
-          device = allot_device(42)
-          print(f"{device} is available")
-      6. Load data
-      7. visualize data
-      8. analyze data
-      9. Model Architecture
-      10. Check the summary of model
-      11. Train the model
-      12. Evaluate the model
-      13. Plot the metrics & analyze them and figure the insights to improve performance/whatsoever.
-      14. Save.
-      15. Tata bye bye!
+      
+   5. Setup the device
+        
+   6. Load data
+   7. visualize data
+   8. analyze data
+   9. Model Architecture
+   10. Check the summary of model
+  11. Train the model
+  12. Evaluate the model
+  13. Plot the metrics & analyze them and figure the insights to improve performance/whatsoever.
+  14. Save.
+  15. Tata bye bye!
